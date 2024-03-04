@@ -1,0 +1,164 @@
+/// All the assets used in this project are to be declared
+/// in this class.
+///
+/// Example
+///
+/// static const logo = '$_images/logo.png'
+/// static const logoSvg = '$_svgPath/logo.svg'
+///
+library;
+// ignore_for_file: unused_field
+
+class AppAssetPath {
+  const AppAssetPath._();
+
+  static const _iconPath = 'assets/icons';
+  static const _imagePath = 'assets/images';
+  static const _svgPath = 'assets/svgs';
+
+  static const backButton = '$_svgPath/back_button.svg';
+  static const dropDownArrow = '$_svgPath/drop_down_arrow.svg';
+  static const logo = '$_svgPath/logo.svg';
+  static const logout = '$_svgPath/logout.svg';
+  static const logoutModal = '$_svgPath/logout_modal.svg';
+  static const logoWithName = '$_svgPath/logo_with_name.svg';
+  static const onboarding1 = '$_imagePath/onboarding_1.png';
+  static const onboarding2 = '$_imagePath/onboarding_2.png';
+  static const onboarding3 = '$_imagePath/onboarding_3.png';
+  static const onboarding4 = '$_imagePath/onboarding_4.png';
+  static const onboardingBG1 = '$_svgPath/onboarding_bg_1.svg';
+  static const onboardingBG2 = '$_svgPath/onboarding_bg_2.svg';
+  static const onboardingBG3 = '$_svgPath/onboarding_bg_3.svg';
+  static const onboardingBG4 = '$_svgPath/onboarding_bg_4.svg';
+  static const calendar = '$_svgPath/calendar.svg';
+  static const visibility = '$_svgPath/visibility.svg';
+  static const failure = '$_svgPath/failure.svg';
+  static const success = '$_svgPath/success.svg';
+  static const bvn = '$_svgPath/bvn.svg';
+  static const identity = '$_svgPath/identity.svg';
+  static const liveness = '$_svgPath/liveness.svg';
+  static const location = '$_svgPath/location.svg';
+  static const personal = '$_svgPath/personal.svg';
+  static const closeButton = '$_svgPath/close_button.svg';
+  static const info = '$_svgPath/info.svg';
+  static const complimentary = '$_svgPath/complimentary.svg';
+  static const electricityOption = '$_svgPath/electricity_option.svg';
+  static const wasteManagement = '$_svgPath/waste_management.svg';
+  static const waterOption = '$_svgPath/water_option.svg';
+  static const landUse = '$_svgPath/land_use.svg';
+  static const folder = '$_svgPath/folder.svg';
+  static const file = '$_svgPath/file.svg';
+  static const delete = '$_svgPath/delete.svg';
+  static const uploadSuccessful = '$_svgPath/upload_successful.svg';
+  static const livenessCheck = '$_svgPath/liveness_check.svg';
+  static const error = '$_svgPath/error.svg';
+  static const driverLicense = '$_svgPath/driver_license.svg';
+  static const id = '$_svgPath/id.svg';
+  static const internationalPassport = '$_svgPath/international_password.svg';
+  static const nationID = '$_svgPath/national_id.svg';
+  static const takePhoto = '$_svgPath/take_photo.svg';
+  static const uploadFromGallery = '$_svgPath/upload_from_gallery.svg';
+  static const forwardIcon = '$_svgPath/forward_icon.svg';
+  static const pickPhoto = '$_svgPath/pick_photo.svg';
+  static const trash = '$_svgPath/trash.svg';
+  static const fetti = '$_svgPath/fetti.svg';
+  static const shield = '$_svgPath/shield.svg';
+  static const home = '$_svgPath/home.svg';
+  static const homeFilled = '$_svgPath/home_filled.svg';
+  static const card = '$_svgPath/cards.svg';
+  static const cardFilled = '$_svgPath/cards_filled.svg';
+  static const more = '$_svgPath/more.svg';
+  static const moreFilled = '$_svgPath/more_filled.svg';
+  static const stats = '$_svgPath/stats.svg';
+  static const statsFilled = '$_svgPath/stats_filled.svg';
+  static const send = '$_svgPath/send.svg';
+  static const notification = '$_svgPath/notification.svg';
+  static const cardPlus = '$_svgPath/card_plus.svg';
+  static const add = '$_svgPath/add.svg';
+  static const sendOutline = '$_svgPath/send_outline.svg';
+  static const payBill = '$_svgPath/pay_bill.svg';
+  static const reward = '$_svgPath/reward.svg';
+  static const cardPreview = '$_svgPath/card_preview.svg';
+  static const debit = '$_svgPath/debit.svg';
+  static const credit = '$_svgPath/credit.svg';
+  static const complimentaryCard = '$_svgPath/complimentary_card.svg';
+  static const complimentaryCardPng = '$_imagePath/complimentary_card.png';
+  static const availableBalanceBG = '$_svgPath/available_balance_bg.svg';
+  static const availableBalanceCardBG =
+      '$_svgPath/available_balance_card_bg.svg';
+  static const getCardBG = '$_svgPath/get_card_bg.svg';
+  static const progressBg = '$_svgPath/progress_bg.svg';
+  static const oval = '$_svgPath/ovals.svg';
+  static const transactions = '$_svgPath/transactions.svg';
+  static const businessCard = '$_imagePath/business_card.png';
+  static const goldCard = '$_imagePath/gold_card.png';
+  static const platinumCard = '$_imagePath/platinum_card.png';
+  static const greenCard = '$_imagePath/green_card.png';
+  static const verveCard = '$_imagePath/verve_card.png';
+  static const deleteIcon = '$_svgPath/delete_icon.svg';
+  static const freeze = '$_svgPath/freeze.svg';
+  static const settings = '$_svgPath/settings.svg';
+  static const plus = '$_svgPath/plus.svg';
+  static const fundNaira = '$_svgPath/fund_naira.svg';
+  static const fundUSD = '$_svgPath/fund_usd.svg';
+  static const arrowForward = '$_svgPath/arrow_forward.svg';
+  static const backspace = '$_svgPath/backspace.svg';
+  static const deleteAction = '$_svgPath/delete_action.svg';
+  static const freezeAction = '$_svgPath/freeze_action.svg';
+  static const unfreezeAction = '$_svgPath/unfreeze_action.svg';
+  static const unfreezeSuccess = '$_svgPath/unfreeze_success.svg';
+  static const unfreeze = '$_svgPath/unfreeze.svg';
+  static const copyButton = '$_svgPath/copy_button.svg';
+  static const copy = '$_svgPath/copy.svg';
+  static const spiral = '$_svgPath/spiral.svg';
+  static const nairaBig = '$_svgPath/naira_big.svg';
+  static const nairaSmall = '$_svgPath/naira_small.svg';
+  static const check = '$_svgPath/check.svg';
+  static const filter = '$_svgPath/filter.svg';
+  static const successful = '$_svgPath/successful.svg';
+  static const pending = '$_svgPath/pending.svg';
+  static const decline = '$_svgPath/decline.svg';
+  static const employmentDetails = '$_svgPath/employment_details.svg';
+  static const salaryAnalysis = '$_svgPath/salary_analysis.svg';
+  static const tAndC = '$_svgPath/t_and_c.svg';
+  static const iGree = '$_svgPath/i_gree.svg';
+  static const verify = '$_svgPath/verify.svg';
+  static const employment = '$_svgPath/employment.svg';
+  static const help = '$_svgPath/help.svg';
+  static const idVerification = '$_svgPath/id_verification.svg';
+  static const myDocument = '$_svgPath/my_documents.svg';
+  static const security = '$_svgPath/security.svg';
+  static const lock = '$_svgPath/lock.svg';
+  static const cardVisibility = '$_svgPath/card_visibility.svg';
+  static const activateCard = '$_svgPath/activate_card.svg';
+  static const cardHole = '$_svgPath/card_hole.svg';
+  static const cardLine = '$_svgPath/card_line.svg';
+  static const activateCardBG = '$_svgPath/activate_card_bg.svg';
+  static const activateCardChain = '$_svgPath/activate_card_chain.svg';
+  static const activateCardSpiral = '$_svgPath/activate_card_spiral.svg';
+  static const face = '$_iconPath/face.svg';
+  static const newExperience = '$_svgPath/new_experience.svg';
+  static const search = '$_iconPath/search.svg';
+  static const verified = '$_iconPath/verified.svg';
+  static const unverified = '$_iconPath/unverified.svg';
+  static const bvnDark = '$_iconPath/bvn.svg';
+  static const defaultProfile = '$_imagePath/default_profile.png';
+  static const fettiGif = '$_imagePath/fetti.gif';
+  static const arrowDown = '$_iconPath/arrow_down.svg';
+  static const comingSoon = '$_svgPath/coming_soon.svg';
+  static const loaderStage1 = '$_svgPath/loader_stage1.svg';
+  static const loaderStage2 = '$_svgPath/loader_stage2.svg';
+  static const loaderStage3 = '$_svgPath/loader_stage3.svg';
+  static const loaderStage4 = '$_svgPath/loader_stage4.svg';
+  static const unfrozeNotification = '$_svgPath/unfroze_notification.svg';
+  static const sentNotification = '$_svgPath/sent_notification.svg';
+  static const frozeNotification = '$_svgPath/froze_notification.svg';
+  static const pinNotification = '$_svgPath/pin_notification.svg';
+  static const deleteNotification = '$_svgPath/delete_notification.svg';
+  static const securityShield = '$_svgPath/security_shield.svg';
+  static const biometrics = '$_svgPath/biometrics.svg';
+  static const pendingCard = '$_iconPath/pending_card.svg';
+  static const declineIcon = '$_iconPath/decline.svg';
+  static const offerIcon = '$_iconPath/offer.svg';
+  static const requestIcon = '$_iconPath/request.svg';
+}
