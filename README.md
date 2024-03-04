@@ -6,7 +6,7 @@ https://github.com/Travis-Gray2194/weather-app/assets/23531921/270eb7cd-3270-47c
 
 Included APK: https://github.com/Travis-Gray2194/weather-app/blob/main/weather.apk
 
-
+Figma: Inspirtation from https://www.figma.com/community/file/1249443729401540968/google-weather-app-redesign?searchSessionId=ltdfmgyw-ejfkjswv6tp
 
 Develop a Weather App using Flutter that provides users with current weather information and forecasts.
 This project will focus on integrating weather data from a third-party API and displaying it in an organized
